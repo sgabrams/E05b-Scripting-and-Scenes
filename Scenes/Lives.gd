@@ -1,6 +1,6 @@
 extends Label
 func _ready():
- update_score()
+ update_lives()
 
-func update_score():
- text = "Score: " + str(get_parent().score)
+func update_lives():
+ text = "Lives: " + str(get_parent().score)
